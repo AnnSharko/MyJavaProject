@@ -4,25 +4,22 @@ import java.util.Scanner;
 
 public class StringPrinter {
 
-    public static void printStringNTimes(String text, int number) {
-        int n = 0;
-        while (n < number) {
-            System.out.println(text);
-            n++;
-        }
+    public static void printStringNTimes() {
     }
+    public static void main(String[] args){
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the string to print: ");
-        String text = scanner.nextLine();
+            System.out.print("Enter the string to print: ");
+            String text = new Scanner(System.in).nextLine();
 
-        System.out.print("Enter the number: ");
-        int number = scanner.nextInt();
+            System.out.print("Enter the number: ");
+            int number = new Scanner(System.in).nextInt();
+            int n = 0;
+            while (n < number) {
+                System.out.println(text);
+                n++;
+            }
 
-        printStringNTimes(text, number);
 
-        scanner.close();
     }
 }
