@@ -31,12 +31,12 @@ public static void main(String[] args){
         }}
     Payment payment = new Payment();
 
-    payment.addItem("Item_1", 2, 15.5);
-    payment.addItem("Item_2", 5, 2.0);
-    payment.addItem("Item_3", 3, 7.5);
+    payment.addItem("Item_1", 2, 5.0);
+    payment.addItem("Item_2", 3, 10.0);
+    payment.addItem("Item_3", 4, 15.5);
     Park park = new Park();
 park.addAttraction("Roller Coaster 1", "10:00 - 20:00", 7.0);
-park.addAttraction("RollerCoaster 2", "11:00 - 19:00", 10.0);
+park.addAttraction("Roller Coaster 2", "11:00 - 21:00", 10.0);
 
 park.showAttractions();
 }
