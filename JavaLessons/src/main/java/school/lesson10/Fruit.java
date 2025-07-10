@@ -6,4 +6,5 @@ public abstract class Fruit {
         this.weight=weight;
     }
 public abstract float getWeight ();
+
 }
